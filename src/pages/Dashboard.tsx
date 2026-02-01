@@ -15,14 +15,14 @@ export default function Dashboard() {
   });
 
   return (
-    <div className="bg-white p-4 rounded shadow flex gap-4 flex-wrap items-end">
+    <div className="min-h-screen bg-gray-100">
       <Header />
 
       <div className="p-4 space-y-4">
         {/* FILTERS */}
-        <div className="bg-white p-4 rounded shadow flex gap-3 flex-wrap">
+        <div className="bg-white p-4 rounded shadow flex flex-wrap gap-4 items-end">
           {/* Project */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-40">
             <label className="text-xs text-gray-500 mb-1">Project</label>
             <select
               value={filters.projectId}
@@ -35,7 +35,7 @@ export default function Dashboard() {
           </div>
 
           {/* From */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-40">
             <label className="text-xs text-gray-500 mb-1">From</label>
             <input
               type="date"
@@ -46,7 +46,7 @@ export default function Dashboard() {
           </div>
 
           {/* To */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-40">
             <label className="text-xs text-gray-500 mb-1">To</label>
             <input
               type="date"
@@ -57,7 +57,7 @@ export default function Dashboard() {
           </div>
 
           {/* Event */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-40">
             <label className="text-xs text-gray-500 mb-1">Event</label>
             <select
               value={filters.event}
@@ -71,7 +71,7 @@ export default function Dashboard() {
           </div>
 
           {/* Breakdown */}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-40">
             <label className="text-xs text-gray-500 mb-1">Breakdown</label>
             <select
               value={filters.breakdown}

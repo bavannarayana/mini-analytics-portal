@@ -30,7 +30,7 @@ npm run dev
 
 - Mock authentication implemented using Zustand.
 - Credentials:
-  editor@demo.com / password123
+  admin@gmail.com / Admin@123
 - Auth state persisted using localStorage via Zustand persist middleware.
 - Protected routes redirect unauthenticated users to login.
 
@@ -78,19 +78,3 @@ npm run dev
 ## Time Spent
 
 Approx: 10–12 hours
-
----
-
-## Next Improvements
-
-- Add pagination for Top N table
-- Add skeleton loaders
-- Add unit tests
-- Add advanced date range picker
-- Add dark mode
-
----
-
-## AI Assistance Disclosure
-
-Used AI assistance for architectural guidance and code optimization.
